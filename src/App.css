@@ -1,0 +1,38 @@
+body {
+	background-color: #fe466c;
+	background-image: url("img/background.jpg");
+	background-repeat: no-repeat;
+}
+h1 {
+	color: white;
+}
+h4 {
+	color: #fe466c;
+}
+.App {
+	text-align: center;
+}
+.App > h1 {
+	margin-top: 50px;
+}
+.body {
+	background-color: white;
+	margin: 50px 20%;
+	padding: 20px 50px;
+	border: tomato solid 1px;
+	border-radius: 20px;
+}
+@media (max-width: 760px) {
+	.body {
+		margin: 5%;
+	}
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}

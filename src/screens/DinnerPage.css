@@ -1,0 +1,21 @@
+.dinner-page {
+	padding: 5%;
+}
+.dinner-button {
+	margin: 5%;
+}
+.bouncing-button {
+	position: relative;
+	color: #fff;
+	animation-name: example;
+	animation-duration: 1s;
+}
+@keyframes example {
+	0% {
+		top: 0px;
+	}
+	100% {
+		top: 250px;
+		opacity: 0;
+	}
+}

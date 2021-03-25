@@ -1,0 +1,16 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notification-page {
+    max-width: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+.notification-page h2 {
+	color: #fe466c;
+}
+.submit-button{
+    margin-top: 20px;
+}
